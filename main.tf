@@ -1,7 +1,6 @@
 /**********************
 Provider Configuration
 ***********************/
-#TODO: put on github and try in new directory
 provider "google" {
   project = var.project_id # create dependency on project google_project.my_project.project_id
   region  = var.region
